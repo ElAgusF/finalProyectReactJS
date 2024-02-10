@@ -9,6 +9,7 @@ import { CartContextProvider } from "./context/CartContext"
 import Cart from "./pages/Cart"
 import Admin from "./pages/Admin"
 import Checkout from "./pages/Checkout"
+import Contact from "./pages/Contact"
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route path="/cart" element={<Cart/>}/>
           <Route path="/admin" element={<Admin/>}/>
           <Route path="/checkout" element={<Checkout/>}/>
+          <Route path="/contact" element={<Contact/>}/>
         </Routes>
         
       </BrowserRouter>
